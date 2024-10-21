@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p::before {
+        content: "INTRO ";
+        font-weight: bold;
+        color: red;
+      }
+      p::after {
+        content: " END ";
+        font-weight: bold;
+        color: rgb(128, 237, 61);
+      }
+
+      input::placeholder {
+        color: rgba(172, 172, 172, 0.47);
+      }
+
+      /* Fullscreen backdrop styling */
+      #fullscreenElement::backdrop {
+        backdrop-filter: blur(8px);
+        background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay */
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+      deserunt alias deleniti officia quisquam quos, possimus, sapiente atque,
+      unde numquam illum optio perferendis amet eius suscipit ratione ipsum
+      laboriosam. Iusto?
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+      deserunt alias deleniti officia quisquam quos, possimus, sapiente atque,
+      unde numquam illum optio perferendis amet eius suscipit ratione ipsum
+      laboriosam. Iusto?
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+      deserunt alias deleniti officia quisquam quos, possimus, sapiente atque,
+      unde numquam illum optio perferendis amet eius suscipit ratione ipsum
+      laboriosam. Iusto?
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+      deserunt alias deleniti officia quisquam quos, possimus, sapiente atque,
+      unde numquam illum optio perferendis amet eius suscipit ratione ipsum
+      laboriosam. Iusto?
+    </p>
+    <input type="text" placeholder="Enter Feed back" />
+
+    <div id="fullscreenElement">
+      <h1>Fullscreen Mode</h1>
+      <button onclick="exitFullscreen()">Exit</button>
+    </div>
+
+    <button onclick="openFullscreen()">Enter Fullscreen</button>
+  </body>
+  <script>
+    const fullscreenElement = document.getElementById("fullscreenElement");
+    function openFullscreen() {
+      fullscreenElement.requestFullscreen(); // Trigger fullscreen mode
+    }
+    function exitFullscreen() {
+      document.exitFullscreen(); // Exit fullscreen mode
+    }
+  </script>
+</html>
