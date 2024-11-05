@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zepto</title>
+    <link
+      rel="shortcut icon"
+      href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fc%2FZeptoNow%2Fnull&psig=AOvVaw2DTxIkBAH8ajkbCldAPr71&ust=1729741411655000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKC-6YXLo4kDFQAAAAAdAAAAABAE"
+      type="image/x-icon"
+    />
+    <style>
+        *{
+            margin: 0px;
+        }
+      header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 50px;
+        align-items: center;
+        background: linear-gradient(to bottom , #ffc6fc, #fff);
+        margin: 0px;
+      }
+      .loc > * {
+        margin: 0;
+      }
+      .search > input {
+        width: 1200px;
+        height: 30px;
+        border-radius: 50px;
+
+      }
+      .login > button {
+        background-color: #ffffff00;
+        border: none;
+        margin: 2px 0px;
+        padding: 0px 10px;
+      }
+      button > h5 {
+        margin: 2px 0px;
+        align-items: center;
+      }
+      select{
+        border: none;
+        background-color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          alt=""
+          loading="lazy"
+          width="90"
+          height="30"
+          decoding="async"
+          data-nimg="1"
+          class="relative overflow-hidden false inline-block min-w-[90px]"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          srcset="
+            https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/images/header/primary-logo.svg  256w,
+            https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/images/header/primary-logo.svg  384w,
+            https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/images/header/primary-logo.svg  640w,
+            https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/images/header/primary-logo.svg  750w,
+            https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/images/header/primary-logo.svg  828w,
+            https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/images/header/primary-logo.svg 1080w,
+            https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/images/header/primary-logo.svg 1200w,
+            https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/images/header/primary-logo.svg 1920w,
+            https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/images/header/primary-logo.svg 2048w,
+            https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/images/header/primary-logo.svg 3840w
+          "
+          src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/images/header/primary-logo.svg"
+          style="color: transparent; object-fit: contain"
+        />
+      </div>
+      <div class="loc">
+        <h3>Delivery in 7 Mins</h3>
+        <select name="" id="">
+          <option value="">
+            <h4>4th Main Road, Dollar Layout, Stage 2, B...</h4>
+          </option>
+        </select>
+      </div>
+      <div class="search">
+        <input type="text" name="" id="" placeholder='Search for "banana" ' />
+      </div>
+      <div class="login">
+        <button class="login-button">
+          <svg
+            fill="none"
+            height="24px"
+            viewBox="0 0 26 26"
+            width="24px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12.5"
+              cy="11.168"
+              r="3.5"
+              stroke="#000000"
+              stroke-linecap="round"
+              stroke-width="1.6"
+            ></circle>
+            <circle
+              cx="12.5"
+              cy="13.5"
+              r="10.5"
+              stroke="#000000"
+              stroke-width="1.6"
+            ></circle>
+            <path
+              d="M19.5 21.3236C19.0871 20.0832 18.1773 18.9872 16.9117 18.2054C15.646 17.4237 14.0953 17 12.5 17C10.9047 17 9.35398 17.4237 8.08835 18.2054C6.82271 18.9872 5.91289 20.0832 5.5 21.3236"
+              stroke="#000000"
+              stroke-linecap="round"
+              stroke-width="1.6"
+            ></path>
+          </svg>
+          <h5>Login</h5>
+        </button>
+        <button>
+          <svg
+            color="#000000"
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.5586 22C11.387 22 12.0586 21.317 12.0586 20.4746C12.0586 19.6321 11.387 18.9492 10.5586 18.9492C9.73017 18.9492 9.05859 19.6321 9.05859 20.4746C9.05859 21.317 9.73017 22 10.5586 22Z"
+              fill="#000000"
+            ></path>
+            <path
+              d="M17.6177 22C18.4461 22 19.1177 21.317 19.1177 20.4746C19.1177 19.6321 18.4461 18.9492 17.6177 18.9492C16.7892 18.9492 16.1177 19.6321 16.1177 20.4746C16.1177 21.317 16.7892 22 17.6177 22Z"
+              fill="#000000"
+            ></path>
+            <path
+              d="M2 2.06277C3.76471 2.0629 4.94118 1.4978 6.11765 3.75768M6.11765 3.75768H19.2461C20.6051 3.75768 21.5684 5.0841 21.1479 6.37649L19.5082 11.416C19.2402 12.2397 18.4725 12.7972 17.6064 12.7972H9.05882M6.11765 3.75768L9.05882 12.7972M20.8235 16.752H9.27151C8.17943 16.752 7.29412 15.8667 7.29412 14.7746V14.5619C7.29412 13.5873 8.0842 12.7972 9.05882 12.7972V12.7972"
+              stroke="#000000"
+              stroke-linecap="round"
+              stroke-width="1.8"
+            ></path>
+          </svg>
+          <h5>Cart</h5>
+        </button>
+      </div>
+    </header>
+  </body>
+</html>

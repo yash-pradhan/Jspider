@@ -1,0 +1,286 @@
+* {
+  margin: 0px;
+}
+
+.hero {
+  width: 80vw;
+  height: 100vh;
+  /* background-repeat: no-repeat; */
+  /* overflow: hidden; */
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  position: absolute;
+}
+
+nav {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #00000027;
+}
+
+nav a {
+  padding: 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+nav select {
+  background-color: inherit;
+  border: none;
+  font-size: 25px;
+  color: white;
+}
+
+.awrd {
+  height: 80vh;
+  width: 100%;
+  background-image: url("https://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-bg.jpg");
+  padding-bottom: 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -90px;
+}
+
+.awardquality {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10vh;
+}
+
+.awards {
+  text-align: center;
+  width: 521px;
+  height: 320px;
+}
+
+.quality {
+  text-align: center;
+  width: 521px;
+  height: 320px;
+}
+
+.awardquality p {
+  font-family: "Dancing Script", cursive; /* Or another cursive font */
+  font-size: 1.5em;
+  color: #ffffff;
+  line-height: 1.4;
+  text-align: justify; /* Ensures both sides are aligned */
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.details {
+  height: 75vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  /* padding: 45px 200px; */
+  background-image: url("https://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-Flav-bg.jpg");
+}
+
+.details div {
+  padding-top: 100px;
+  height: 70%;
+  width: 20%;
+  /* top: 100px; */
+  margin: 100px 0px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.details  h3 {
+  font-family: "Dancing Script", cursive; /* Or another cursive font */
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.details div p {
+  font-family: "Dancing Script", cursive; /* Or another cursive font */
+  font-size: 1.5em;
+  color: #ffffff;
+  line-height: 1.2;
+  text-align: justify; /* Ensures both sides are aligned */
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.Flavours {
+  /* position: relative; */
+  /* top: 100px; */
+  background-image: url("https://www.thancosnatural.com/wp-content/uploads/2017/12/Flavours.png");
+  background-size: cover;
+}
+
+.store {
+  background-size: cover;
+  background-image: url("https://www.thancosnatural.com/wp-content/uploads/2017/12/Stores.png");
+}
+
+.franchise {
+  background-size: cover;
+  background-image: url("https://www.thancosnatural.com/wp-content/uploads/2017/12/Franchise.png");
+}
+
+.feedback {
+  background-image: url("https://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-1.jpg");
+  height: 60vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.feedback div:first-child {
+  /* text-align: center; */
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  /* top: 200px; */
+  align-items: center;
+  padding-top: 100px;
+  /* margin-top: 300px; */
+}
+
+input[type="text"] {
+  height: 40px;
+  width: 100%;
+  background-color: inherit;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+input[type="email"] {
+  height: 40px;
+  width: 100%;
+  background-color: inherit;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 100px;
+  width: 100%;
+  background-color: inherit;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  /* padding-left: 20px; */
+  color: white;
+  padding-left: 20px;
+}
+
+textarea::placeholder {
+  color: white;
+  padding: 10px;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.submit {
+  border: 2px solid yellow;
+  color: yellow;
+  background-color: inherit;
+  height: 40px;
+  width: 80px;
+  position: relative;
+}
+
+.Suggest {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.contact{
+  height: 40vh;
+  width: 100%;
+  color: white;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contactus::first-line{
+  color: rgb(2, 218, 2);
+  
+}
+
+.number::first-line{
+  font-weight: bolder;
+
+}
+
+.contact div{
+  font-family: "Dancing Script", cursive;
+  height: 200px;
+  width: 40%;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  width: 300px;
+  padding-left: 100px;
+  /* padding:0px 100px; */
+}
+
+.contact img{
+  padding-left: 100px;
+}
+
+footer{
+  background-color: #000;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* padding: 0px 100px; */
+  color: rgb(58, 58, 58);
+  align-items: center;
+}
+
+.social{
+  display: flex;
+  
+}
+
+.social svg{
+  fill: #edb059;
+  height: 50px;
+  width: 50px;
+  padding-left: 20px;
+}
+
+
+

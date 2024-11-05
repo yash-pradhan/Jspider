@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding: 0px 10px; */
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 0px 10px;
+  color: black;
+  font-size: 15px;
+}
+
+.nav select {
+  font-size: 15px;
+  padding: 0px 10px;
+  border: none;
+  background-color: inherit;
+}
+
+main {
+  height: 45vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  /* background-size:contain; */
+  background-position: center;
+  background-image: url("http://www.nialjewar.com/img/SLIDE_02.jpg");
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.type {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(61, 61, 61, 0.589);
+}
+
+.type img {
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.catagories {
+  height: 10vh;
+  width: 20em;
+  display: flex;
+  color: white;
+  /* padding-right: 15px ; */
+  align-items: center;
+}
+
+.catagories:active {
+  background-color: rgba(61, 61, 61, 0.589);
+}
+
+.features {
+  height: 10vh;
+  width: 100%;
+  display: grid;
+  padding: 20px 0px;
+  /* align-items: center; */
+  justify-content: center;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.212);
+}
+
+.features div {
+  max-width: 90vw;
+}
+
+.features div a {
+  text-decoration: none;
+  /* width: 320px; */
+  /* height: 45px; */
+  /* padding: 10px; */
+  color: black;
+  line-height: 2em;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.ftur {
+  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px 30px;
+  align-items: center;
+}
+
+/* .ftur li {
+  height: 50px;
+  width: 15vw;
+} */
+.ftur li:not(:last-child)::after {
+  content: "|";
+  align-items: center;
+  margin-left: 20px;
+}
+
+.work {
+  width: 100%;
+  height: 40vh;
+  /* display: flex; */
+  justify-content: center;
+  padding-top: 40px;
+  background-color: rgba(199, 199, 199, 0.37);
+  /* box-shadow: -; */
+}
+
+.marquee-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  height: 35px;
+}
+
+marquee {
+  width: 80%;
+  height: 60%;
+  text-align: center;
+  padding-top: 2px;
+  color: white;
+  background-color: #3399ff;
+}
+
+.marquee-container::before {
+  content: "//Breaking//";
+  background-color: yellow;
+  padding: 0px 8px;
+  border: 20px 13px 18px 11px;
+}
+
+.services {
+  height: 30vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: end;
+  gap: 10px 19px;
+}
+
+.services div img {
+  height: 27px;
+  width: 27px;
+  padding-right: 20px;
+ 
+}
+
+.services .srv {
+  width: 300px;
+  box-shadow: 0px 5px 6px rgba(104, 104, 104, 0.329);
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 23px;
+  /* padding-right: 20px; */
+}
+
+input {
+  height: 30px;
+  width: 400px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid white
+}
+
+textarea {
+  height: 50px;
+  width: 400px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid white
+}
+
+button {
+  background-color: #0069d9;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+input::placeholder {
+  /* align-items: center; */
+  text-align: center;
+  /* height: 20px; */
+  color: white;
+}
+
+textarea::placeholder {
+  text-align: center;
+  color: white;
+}
+
+.feedback::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.feedback > * {
+  text-transform: none;
+  z-index: 2;
+}
+
+.feedback {
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("http://www.nialjewar.com/img/aboutus.jpg");
+  height: 50vh;
+  width: 100%;
+  align-items: center;
+}
+
+.about {
+  max-width: 270px;
+  font-size: 14px;
+  line-height: 1.8em;
+  align-items: center;
+  height: 400px;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+  align-items: center;
+  /* align-items: space-evenly; */
+  /* padding: 100px 0px; */
+}
+
+.contact {
+  text-align: start;
+  height: 30vh;
+  /* text-transform:; */
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  /* height: 400px; */
+  flex-direction: column;
+  line-height: 1.2em;
+  justify-content: space-around;
+  /* font-size: 15px; */
+  /* align-items: center; */
+}
+
+.contact p {
+  text-align: left;
+}
+
+.contact h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.contact > div> p:nth-child(1) {
+  /* text-align: start; */
+  /* color: gold;0 */
+    font-size: 20px;
+}
+
+.contact > div> p:nth-child(2) {
+  /* text-align: start; */
+  /* color: gold;0 */
+    font-size: 17px;
+    text-transform: none;
+}
+.contact > div> p:nth-child(3) {
+    /* text-align: start; */
+    /* color: gold;0 */
+      font-size: 14px;
+  }
+
+
+
