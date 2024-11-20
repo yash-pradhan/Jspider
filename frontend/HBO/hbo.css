@@ -1,0 +1,54 @@
+*{
+    text-transform: uppercase ;
+    margin: 0;
+
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    /* padding: 50px; */
+    /* position: sticky; */
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+}
+
+header{
+    background-image: url("https://static.hbo.com/2024-05/house-of-the-dragon-s2-ka-2000x700.jpg?w=1200");
+    background-position: center;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.signup{
+    display: flex;
+}
+
+.registerbtn{
+    display: flex;
+}
+
+.signup > p {
+    display: block;
+}
+
+.icon{
+    height: 30px;
+    width: 70px;
+    overflow: hidden;
+}
+
+.icon  img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+section {
+  height: auto;
+  width: 100%;
+}
+
+.releases {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+  margin: 20px 0px;
+}
+
+.title {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  display: inline-block;
+  margin-top: 10px;
+  /* margin-left: 10px;   */
+}
+
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 23vw;
+  margin: 0px 5px;
+}
