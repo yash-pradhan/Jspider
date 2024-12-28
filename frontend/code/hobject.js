@@ -56,6 +56,5 @@ class Car{
 let mercidese = new Car('100km/h', '20km', '15yr', 'Mr. pradhan', 'mercidese')
 console.log(mercidese);
 
-run.prototype.averagespeed = averagespeed;
 
 

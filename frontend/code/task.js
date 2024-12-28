@@ -66,30 +66,3 @@ function avgeven(){
 
 // console.log(avgeven());
 
-function uniqueElements(arr) {
-    // Your code here
-   return [...new Set(arr)]
-}
-
-// console.log(uniqueElements([1, 2, 3, 2, 1, 5, 6])); // Output: [1, 2, 3, 5, 6]
-
-
-
-let number= [1,3,1]
-let morenumb = [...number, 4, 5] 
-
-// console.log( morenumb);
-
-
-
-
-function frequencyCounter(arr) {
-    // Your code here
-    let arr1 = new Set(arr);
-    for ( let i =0; i<= arr.length-1; i++){
-        if()
-    }
-    return arr1:
-}
-console.log(frequencyCounter(['apple', 'banana', 'apple', 'orange', 'banana', 'apple'])); 
-// Output: { apple: 3, banana: 2, orange: 1 }
